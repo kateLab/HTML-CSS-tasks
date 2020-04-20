@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f5f1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    max-width: 74%;
+    margin-top: 10px;
+}
+
+.post {
+    width: 66.66%;
+    margin-right: 20px;
+    min-width: 300px; 
+}
+
+.full-posts-list {
+    list-style: none;
+}
+
+.full-posts-list li {
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.full-posts-list li .post-header {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.full-posts-list li .post-header h1 {
+    font-size: 22pt;
+    margin-bottom: 5px;
+}
+
+.full-posts-list li .post-header .post-header-info {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.full-posts-list li .post-content-images .post-image {
+    width: 100%;
+}
+
+.full-posts-list li .post-text {
+    margin: 50px 55px 40px 45px;
+    line-height: 1.8;
+}
+
+.full-posts-list li .post-navigation {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-content: flex-end;
+}
+
+.full-posts-list li .post-navigation div {
+    color: white;
+}
+
+.btn-read {
+    height: 35px;
+    padding: 0px 20px;
+    font-size: 12pt;
+}
+
+.btn-read img {
+    margin-left: 2px;
+    height: 12px;
+}
+
+.navigation-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+}
+
+.navigation-icon:hover {
+    background-color: yellowgreen;
+}
+
+.facebook-icon img {
+   width: 17px;
+}
+
+.twitter-icon img, .google-icon img {
+    width: 14px;
+}
+
+.linkedin-icon img {
+    width: 17px;
+}
+
+.post-header-info .info-status {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #d6cfd0;
+    font-size: 12pt;
+}
+
+.info-status li {
+    margin-right: 10px;
+}
+
+.pen-icon {
+    background-color: white;
+    margin: -40px auto;
+    position: relative;
+    display: block;
+}
+
+.icon {
+    max-width: 12px;
+    max-height: 12px;
+}
+
+.additional {
+    min-width: 200px;
+    width: 33.33%;
+}
+
+.search {
+    background-color: white;
+    padding: 17px;
+}
+.search form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search input[type=search] {
+    color: white;
+    background-color: #343434;
+    padding: 6px;
+    border: 1px solid #343434;
+    margin-right: -5px;
+    outline: none;
+}
+
+.btn {
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.search button {
+    font-size: 10pt; 
+    padding: 7px;
+}
+
+.categories, .last-posts {
+    margin-top: 30px;
+    background-color: white;
+}
+
+.section-header {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0 20px 20px;
+}
+
+.categories-section .category-item {
+    margin: 20px;
+}
+
+.section-list {
+    padding: 10px 0px 10px 0px;
+    list-style: none;
+}
+
+.categories-list li {
+   margin: 0px 20px;
+   padding: 10px 10px;
+}
+
+.categories-list li:hover {
+    background-color: yellowgreen;
+}
+
+.underline-item {
+    border-bottom: 3px solid #f6f5f1; 
+}
+
+.last-posts li {
+    padding: 10px 20px;
+    display: flex;
+}
+
+.last-posts li img {
+    margin-right: 10px;
+}
+
+.round-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.posts-list li .post-info {
+    margin-top: 20px;
+    word-break: break-all;
+    text-transform: uppercase;
+}
+
+.post-info h4 {
+    font-size: 10.2pt;
+    margin-bottom: 3px;
+}
+
+.post-info p {
+    color: #d6cfd0;
+    font-size: 9pt;
+}
+

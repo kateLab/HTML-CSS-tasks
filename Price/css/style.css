@@ -1,0 +1,155 @@
+body {
+    font: 14px/50px "Montserrat", sans-serif;
+    background-color: #2d3c49;
+}
+
+.content {
+    margin: 0 auto;
+    background-color: #2d3c49;
+    clear: both;
+    display: block;
+    position: relative;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.wrapper-price-table {
+    width: 25%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.price-table {
+    text-align: center;
+    position: relative;
+    border: 1px solid #4c5964;
+}
+
+.price-table:hover {
+    border: 5px solid #31aae2;
+}
+
+.price-title h4 {
+    font: 15px/25px "Montserrat", sans-serif;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    word-spacing: -3.6px;
+    padding-top: 30px;
+}
+
+.price-title .first-line {
+    border: 1px solid #4c5964;
+    width: 50px;
+}
+
+.price-title .second-line {
+    border: 1px solid #4c5964;
+    width: 24px;
+    margin-top: 8px;
+}
+
+.price-table .price {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.price-table .price .dollar {
+    color: white;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 27px;
+}
+
+.price-table .price p {
+    font-size: 14px;
+    color: #b9b9b9;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    margin-top: -14px;
+}
+
+.price-table .price-table-list {
+    padding: 0;
+    margin-top: -4px;
+    margin-bottom: 30px;
+}
+
+.price-table .price-table-list li {
+    color: white;
+    font-size: 14px;
+    line-height: 60px;
+}
+
+.price-table .price-table-list li:nth-child(2n+1) {
+    background-color: #283542;
+}
+
+.price-table .price-table-list li span {
+    color: #31aae2;
+}
+
+.price-table .price-table-list li .orange {
+    color: #ff5722;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 40px;
+    color: #FFFFFf;
+    padding: 15px 40px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    line-height: 1.42857143
+}
+
+.btn-orange {
+    background-color: #ff5722;
+}
+
+.btn-normal {
+    background-color: #4c5964;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flag {
+    background-color: #ff5722;
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    right: 7px;
+  }
+  .flag:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    border-left: 15px solid #ff5722;
+    border-right: 15px solid #ff5722;
+    border-bottom: 15px solid transparent;
+    
+  }
+
+  .flag p {
+      margin: 0 auto;
+      color: white;
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+  }
